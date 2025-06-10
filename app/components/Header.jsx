@@ -32,7 +32,7 @@ function Header() {
           transition={{duration:0.6,delay:0.7}}
           className='max-w-2xl mx-auto font-Ovo'
         >
-            I am a frontend developer from Yangon, Myanmar with more than 2 years of experience in two companies like ITVisionHub and Anbuchi Technology. 
+            I am a frontend developer from Yangon, Myanmar with more than 3 years of experience in two companies like ITVisionHub and Anbuchi Technology. 
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a
@@ -45,7 +45,7 @@ function Header() {
               initial={{y:30,opacity:0}}
               whileInView={{y:0,opacity:1}}
               transition={{duration:0.6,delay:1.2}}
-            href="/THH.Resume.pdf" download 
+            href="/ThaungHtikeHtoo.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                 my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
         </div>
