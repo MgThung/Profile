@@ -39,7 +39,13 @@ import work1 from './public/work-1.png';
 import work2 from './public/work-2.png';
 import work3 from './public/work-3.png';
 import work4 from './public/work-4.png';
-
+import ultraB from './ultraB.png';
+import comfy from './comfyhouse.png'
+import digital from './digitalmarket.png'
+import fashion from './fashion.png'
+import social from './social.png'
+import education from './education.png'
+import dobu from './Dobu.png'
 export const assets = {
     user_image,
     code_icon,
@@ -82,6 +88,13 @@ export const assets = {
     work2,
     work3,
     work4,
+    ultraB,
+    fashion,
+    comfy,
+    digital,
+    social,
+    education,
+    dobu
 };
 
 export const workData = [
@@ -106,6 +119,52 @@ export const workData = [
         bgImage: 'https://i.pinimg.com/736x/4d/d9/d0/4dd9d060bfd17efb489485396546b991.jpg',
     },
 ]
+
+export const filterWork=[ {codeLink: "https://github.com/chuewathankyaw/reactultra-b.git",
+                            description: "This website is an ECommerce website related with Cosmetic Products.",
+                            imgUrl: assets.ultraB,
+                            projectLink:"https://ultra-b.netlify.app/",
+                            tags:['React JS', 'Web App', 'All'],
+                            title:"Ultra-B"
+                            },
+                            {codeLink: "https://github.com/MgThung/DuboMartialArts",
+                            description:"This website is martial arts class learning website and designed for ",
+                            imgUrl: assets.dobu,
+                            projectLink: "https://dubo-martial-arts-eta.vercel.app/",
+                            tags:  ['Web App', 'UI/UX', 'All'],
+                            title: "Dubo Martial Arts"},
+                            {codeLink: "https://github.com/MgThung/ComfyHouse.git",
+                            description: "This website is an Ecommerce website and designed for selling bed and bed room accessories",
+                            imgUrl: assets.comfy,
+                            projectLink : "https://comfyhousedesign.netlify.app/",
+                            tags :  ['Web App', 'UI/UX', 'All'],
+                            title : "Furniture Shop"},
+                            {codeLink: "https://github.com/MgThung/Digital_Market.git",
+                            description:"This website is designed for Digital Marking Services",
+                            imgUrl: assets.digital,
+                            projectLink: "https://digitalmarketthh.netlify.app/",
+                            tags:  ['Web App', 'UI/UX', 'All'],
+                            title: "Digital Market"},
+                            {codeLink: "https://github.com/MgThung/Fashionshop.git",
+                            description:"This website is an eCommerce website and designed for selling fashion dresses.",
+                            imgUrl: assets.fashion,
+                            projectLink: "https://fashionshop-sigma.vercel.app/",
+                            tags:  ['Web App', 'UI/UX', 'All'],
+                            title: "Fashion Shop Ecommerce Website"},
+                            {codeLink: "https://github.com/MgThung/Education",
+                            description:"This website is an Education website and designed with Home page, About Page, Courses Page and Contact Page",
+                            imgUrl: assets.education,
+                            projectLink: "https://educationsimpledesign.netlify.app/",
+                            tags:  ['Web App', 'UI/UX', 'All'],
+                            title: "Education Web App"},
+                            {codeLink: "https://github.com/MgThung/SocialMedia.git",
+                            description:"This website is social media website by creating like facebook website design",
+                            imgUrl: assets.social,
+                            projectLink: "https://reactsocialmedapp.netlify.app/",
+                            tags:  ['React JS', 'UI/UX', 'All'],
+                            title: "Social Web Design"},
+                            
+                        ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
